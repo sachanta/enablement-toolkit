@@ -1,0 +1,16 @@
+agent_version=4.2.2.0
+download_artifacts="AppServerAgent-4.2.2.0.zip machineagent-bundle-64bit-linux-4.2.2.0.zip"
+controller_account=Customer1
+controller_accessKey=12345678
+controller_host=prod.saas.appdynamics.com
+download_artifacts=true
+appName=MICROACCOUNT
+certificate=conf/common/ssl/appdcert.pem
+trustStore=conf/common/ssl/cacerts.jks
+admin1=Srikar.achanta@appdynamics.com
+admin2=harsh.vyas@appdynamics.com
+admin3=srikar.achanta@appdynamics.com
+user1=
+user2=
+user3=
+user4=
