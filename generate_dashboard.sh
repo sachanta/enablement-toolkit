@@ -1,5 +1,5 @@
 
-if [ "$#" -ne 1 ] 
+if [ "$#" -ne 1 ]
   then
     echo "Not enough arguments supplied, expecting Application Name"
 	exit 1;
@@ -20,6 +20,6 @@ fi
 cp Resources/dashboardTemplates/*.json $dest/$1
 cd target/dashboards/$1
 sed -i -- "s/QuoteandApp_ASM_PS/$1/g" *
+rm -f *.json--
+
 echo "Done!"
-
-
